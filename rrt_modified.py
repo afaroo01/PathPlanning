@@ -118,7 +118,9 @@ def createObstacles():
 
 def isCollision(nn, new_node):
     """
-    This method checks to see if the line connecting the close node and nearest node will pass through an obstacle. Returns true if there is a collision and false if there is no collision.
+    This method checks to see if the line connecting the close node
+    and nearest node will pass through an obstacle. Returns true if there 
+    is a collision and false if there is no collision.
     """
     start_pos = nn
     end_pos = new_node
